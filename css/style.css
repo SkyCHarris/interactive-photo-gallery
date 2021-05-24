@@ -13,7 +13,8 @@ input[type=search] {
     justify-content: center;
     margin: 20px;
     display: grid;
-    grid-template-columns: 220px 220px 220px 220px;
-    grid-template-rows: 220px 220px 220px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
 }
 
