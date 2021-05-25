@@ -8,6 +8,10 @@ input[type=search] {
     border: 2px solid darkgray;
 }
 
+input[type=search]:focus {
+    width: 60%;
+}
+
 .photo_gallery {
     width: 90%;
     justify-content: center;
@@ -17,4 +21,3 @@ input[type=search] {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
 }
-
